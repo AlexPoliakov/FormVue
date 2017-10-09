@@ -1,0 +1,109 @@
+.form__pg {
+    margin: 60px auto;
+    bottom: 0;
+    border: 1px solid lightsteelblue;
+    color: #afafaf;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    width: 940px;
+}
+
+.name__form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 5px 40px;
+}
+
+label:hover {
+    color: #272727;
+    transition: all 0.3s ease-in-out;
+}
+
+input,
+textarea {
+    width: 95%;
+    font-size: 16px;
+    caret-color: red;
+}
+
+input {
+    height: 28px;
+}
+
+textarea {
+    height: 80px;
+}
+
+#activity {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.form__photo {
+    margin-top: 10px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #afafaf;
+    margin-left: 40px;
+}
+
+.link_pic {
+    display: block;
+    background-color: transparent;
+    width: 50px;
+    font-size: 18px;
+    outline: none;
+    color: #9f9f9f;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+a:hover {
+    color: #272727;
+}
+
+.add_user {
+    display: inline-block;
+    background-color: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    outline: none;
+    color: #9f9f9f;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin: 10px 0 20px 40px;
+}
+
+.add_user:hover {
+    color: #272727;
+}
+
+.avatar {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    font-size: 18px;
+    line-height: 200px;
+}
+
+.search,
+.about {
+    width: 91%;
+    margin: 10px 0 15px 40px;
+    overflow-x: hidden;
+    color: #272727;
+    border: 1px solid #afafaf;
+    background-color: #afafaf;
+}
+
+h3 {
+    margin-left: 5px;
+}
